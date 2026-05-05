@@ -1,11 +1,11 @@
-from modelos.cliente import Cliente
-from modelos.reserva import Reserva
+from models.cliente import Cliente
+from models.reserva import Reserva
 
-from servicios.sala import ServicioSala
-from servicios.equipo import ServicioEquipo
-from servicios.asesoria import ServicioAsesoria
+from services.sala import ServicioSala
+from services.equipo import ServicioEquipo
+from services.asesoria import ServicioAsesoria
 
-from utilidades.logger import registrar_error
+from utils.logger import registrar_error
 
 
 def ejecutar_sistema():
