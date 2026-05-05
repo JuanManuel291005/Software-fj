@@ -1,5 +1,5 @@
-from modelos.servicio import Servicio
-from utilidades.excepciones import ErrorServicio
+from models.servicio import Servicio
+from utils.excepciones import ErrorServicio
 
 
 class ServicioAsesoria(Servicio):
