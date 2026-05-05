@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from utilidades.excepciones import ErrorServicio
+from utils.excepciones import ErrorServicio
 
 
 class Servicio(ABC):
