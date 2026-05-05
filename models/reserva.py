@@ -1,5 +1,5 @@
-from utilidades.excepciones import ErrorReserva
-from utilidades.logger import registrar_error
+from utils.excepciones import ErrorReserva
+from utils.logger import registrar_error
 
 
 class Reserva:
