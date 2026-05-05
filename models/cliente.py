@@ -1,4 +1,4 @@
-from modelos.entidad import Entidad
+from models.entidad import Entidad
 from utilidades.excepciones import ErrorCliente
 from utilidades.logger import registrar_error
 
