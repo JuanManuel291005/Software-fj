@@ -1,6 +1,6 @@
 from models.entidad import Entidad
-from utilidades.excepciones import ErrorCliente
-from utilidades.logger import registrar_error
+from utils.excepciones import ErrorCliente
+from utils.logger import registrar_error
 
 
 class Cliente(Entidad):
